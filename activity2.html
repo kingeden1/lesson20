@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable in Function</title>
+</head>
+<body>
+ <Button onclick="calc(2,4)">Click here...</Button>
+ <p id="demo1"></p>
+ <p id="demo2"></p>
+ <script>
+    var a = 5;
+    var b = 9;
+    function calc(x,y)
+{ 
+    var ans = x * y
+    document.getElementById("demo1").innerHTML = ans
+}
+
+document.getElementById("demo2").innerHTML = a*b
+
+ </script> 
+</body>
+</html>
